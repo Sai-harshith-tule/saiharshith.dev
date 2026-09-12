@@ -1,0 +1,44 @@
+# =========================
+# Java / Spring Boot
+# =========================
+
+*.class
+*.log
+*.jar
+*.war
+*.nar
+*.ear
+
+backend/target/
+
+# =========================
+# Node / React / Vite
+# =========================
+
+frontend/node_modules/
+frontend/dist/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# =========================
+# IntelliJ IDEA
+# =========================
+
+.idea/
+*.iml
+
+# =========================
+# macOS
+# =========================
+
+.DS_Store
+
+# =========================
+# Java crash logs
+# =========================
+
+hs_err_pid*
+replay_pid*
